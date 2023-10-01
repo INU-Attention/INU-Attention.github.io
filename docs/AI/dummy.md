@@ -1,6 +1,6 @@
 ---
-slug: test
-title: Test
+slug: dummy
+title: dummy
 authors: Sungjin
 tags: [test]
 ---
