@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'INU-Attention',
+  tagline: 'INU 23-24 캡스톤디자인',
+
 
   // Set the production url of your site here
   url: 'https://inu-attention.github.io',
