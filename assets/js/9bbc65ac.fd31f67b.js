@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkinu_attention=self.webpackChunkinu_attention||[]).push([[210],{1020:t=>{t.exports=JSON.parse('{"label":"test","permalink":"/docs/tags/test","allTagsPath":"/docs/tags","count":1,"items":[{"id":"AI/dummy","title":"dummy","description":"","permalink":"/docs/AI/dummy"}]}')}}]);

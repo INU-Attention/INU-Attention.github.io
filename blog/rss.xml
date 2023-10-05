@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>My Site Blog</title>
+        <title>INU-Attention Blog</title>
         <link>https://inu-attention.github.io/blog</link>
-        <description>My Site Blog</description>
-        <lastBuildDate>Sat, 30 Sep 2023 00:00:00 GMT</lastBuildDate>
+        <description>INU-Attention Blog</description>
+        <lastBuildDate>Thu, 05 Oct 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[회의록 - 23.10.05]]></title>
+            <link>https://inu-attention.github.io/blog/2023/10/05/회의록</link>
+            <guid>https://inu-attention.github.io/blog/2023/10/05/회의록</guid>
+            <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[1. 아이디어 관련 논의 내용 - 예상 난관]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-아이디어-관련-논의-내용---예상-난관">1. 아이디어 관련 논의 내용 - 예상 난관<a href="#1-아이디어-관련-논의-내용---예상-난관" class="hash-link" aria-label="Direct link to 1. 아이디어 관련 논의 내용 - 예상 난관" title="Direct link to 1. 아이디어 관련 논의 내용 - 예상 난관">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="캐릭터-이미지-domain-통일의-어려움">캐릭터 이미지 domain 통일의 어려움<a href="#캐릭터-이미지-domain-통일의-어려움" class="hash-link" aria-label="Direct link to 캐릭터 이미지 domain 통일의 어려움" title="Direct link to 캐릭터 이미지 domain 통일의 어려움">​</a></h3><ul><li>수집하는 데이터에 다양한 스타일(domain)의 이미지가 섞여있음.<br>(원화 일러스트, 인게임 캡쳐, 실사/애니메이션 스타일 등)</li><li>사용자 관점에서 볼 때, 모델이 특정 domain에 국한되지 않고 다양한 domain, 스타일에서 잘 동작하는 것을 기대하므로 오히려 유리할 수 있음.</li><li><strong>다양한 domain의 이미지로부터 image encoder를 학습시킴으로써 모델의 일반화 성능에 도움</strong>이 될 것.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="데이터-전처리의-어려움">데이터 전처리의 어려움<a href="#데이터-전처리의-어려움" class="hash-link" aria-label="Direct link to 데이터 전처리의 어려움" title="Direct link to 데이터 전처리의 어려움">​</a></h3><ul><li>각기 다른 게임, 영상에서 음성파일을 가져오기 때문에 각 음성파일 길이 등이 상이하고, 적절한 기준을 세워 통일 및 전처리가 필요함</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="pretrained-multispeakertts-모델의-표현력">Pretrained MultiSpeakerTTS 모델의 표현력<a href="#pretrained-multispeakertts-모델의-표현력" class="hash-link" aria-label="Direct link to Pretrained MultiSpeakerTTS 모델의 표현력" title="Direct link to Pretrained MultiSpeakerTTS 모델의 표현력">​</a></h3><ul><li>대부분의 TTS모델들은 일반적인 발화를 바탕으로 학습되었기 때문에, 우리가 원하는 게임, 애니메이션 등의 <strong>과장된 스타일의 목소리는 잘 표현해내지 못할 수 있음</strong>.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="평가지표가-애매함">평가지표가 애매함<a href="#평가지표가-애매함" class="hash-link" aria-label="Direct link to 평가지표가 애매함" title="Direct link to 평가지표가 애매함">​</a></h3><ul><li>모델의 최종 성능을 평가하기 위해선 입력 이미지와 출력 음성이 얼마나 잘 어울리는지를 측정할 수 있어야 함.</li><li>현재까지의 조사로는 <strong>"얼마나 잘 어울리는지"를 측정할 객관적인 방법 및 지표가 없음</strong></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-다음-회의까지-할일">2. 다음 회의까지 할일<a href="#2-다음-회의까지-할일" class="hash-link" aria-label="Direct link to 2. 다음 회의까지 할일" title="Direct link to 2. 다음 회의까지 할일">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="ai">AI<a href="#ai" class="hash-link" aria-label="Direct link to AI" title="Direct link to AI">​</a></h3><ul><li>AI 팀원끼리 추가 회의 한 번 가지기</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="프론트">프론트<a href="#프론트" class="hash-link" aria-label="Direct link to 프론트" title="Direct link to 프론트">​</a></h3><ul><li>사용할 프레임워크 결정하기</li><li>기존 TTS서비스 페이지들의 UI 분석, 캡쳐해서 노션에 업로드하기</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="백엔드">백엔드<a href="#백엔드" class="hash-link" aria-label="Direct link to 백엔드" title="Direct link to 백엔드">​</a></h3><ul><li>사용할 프레임워크 결정하기</li><li>유저가 이미지로부터 생성한 목소리 스타일 임베딩을 DB에 저장하고, 이를 재사용</li><li>유저 - 프론트엔드 - 백엔드 - AI서버 간의 구조 간단하게 도식화하기</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-기타">3. 기타<a href="#3-기타" class="hash-link" aria-label="Direct link to 3. 기타" title="Direct link to 3. 기타">​</a></h2><ul><li><strong>회의 장소 예약</strong> - 다음주 목요일 공강이므로 해당 시간에 다음 회의 진행</li><li>데이터 취합 - 구글 드라이브 공유 폴더  만들기</li></ul>]]></content:encoded>
+            <category>회의록</category>
+        </item>
+        <item>
             <title><![CDATA[회의록 - 23.09.30]]></title>
-            <link>https://inu-attention.github.io/blog/2023/09/30/2023-09-30-회의록/회의록</link>
-            <guid>https://inu-attention.github.io/blog/2023/09/30/2023-09-30-회의록/회의록</guid>
+            <link>https://inu-attention.github.io/blog/2023/09/30/회의록</link>
+            <guid>https://inu-attention.github.io/blog/2023/09/30/회의록</guid>
             <pubDate>Sat, 30 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[0. 조사 내용 공유 & 브레인스토밍]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="0-조사-내용-공유--브레인스토밍">0. 조사 내용 공유 &amp; 브레인스토밍<a href="#0-조사-내용-공유--브레인스토밍" class="hash-link" aria-label="Direct link to 0. 조사 내용 공유 &amp; 브레인스토밍" title="Direct link to 0. 조사 내용 공유 &amp; 브레인스토밍">​</a></h3><p><img loading="lazy" src="/assets/images/주제_브레인스토밍-d1b5fcc19f14d2379ad30e2312bcffa4.png" width="5096" height="2942" class="img_ev3q"></p><ul><li>지난 회의에서 선정한 6개의 주제를 추가 조사 (09/22 ~ 09/20)</li><li>이후 figjam을 활용해 브레인스토밍하였음</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-주제-선정">1. 주제 선정<a href="#1-주제-선정" class="hash-link" aria-label="Direct link to 1. 주제 선정" title="Direct link to 1. 주제 선정">​</a></h3><p>데이터 수집, 구현 난이도, 참신함, 팀원의 흥미도를 고려<br>
