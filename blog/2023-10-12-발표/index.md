@@ -7,16 +7,25 @@ tags: [발표]
 ### 1. 팀소개
 
 ### 2. 아이디어 개요
+* 아이디어 선정 이유
+  * 개인화
+    * 이미지 처리를 통해 사용자만이 유일하게 가질 수 있는 목소리 스타일을 만들 수 있음
 * TTS 시장 규모 (효택)
-* 현존 웹사이트 (승호)
-  * 장단점
-* 개인화
-  * 이번 프로젝트같은 경우 사용자가 만들고 싶어하는 목소리의 스타일을 딥러닝을 통해 만들 수 있기 때문에 사용자 자신만의 스타일을 생성할 수 있는 장점이 있다.
+* 현존 웹사이트
+  
+  * [Onairstudio](https://onairstudio.ai/, "Onairstudio")
+  ![onairstudio](OnAirStudio실행화면.png)
+  * [TTSMAKER](https://ttsmaker.com/ko, "TTSMAKER")
+  ![onairstudio](TTSMAKER실행화면.png)
+  * [SelvySpeech](https://speech.selvasai.com/text-to-speech-demonstration, "SelvySpeech")
+  ![Selvyspeech1](SelvySpeech실행화면1.png)
+  ![Selvyspeech2](SelvySpeech실행화면2.png)
 * 활용 분야
     * 인디게임
     * 추가 예정
 * 주요 이슈
   * 협업
+  * 학습데이터 언어의 한계
 
 ### —본론—
 
