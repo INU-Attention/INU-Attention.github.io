@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://inu-attention.github.io/blog</id>
     <title>INU-Attention Blog</title>
-    <updated>2023-10-05T00:00:00.000Z</updated>
+    <updated>2023-10-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://inu-attention.github.io/blog"/>
     <subtitle>INU-Attention Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[발표 - 23.10.12]]></title>
+        <id>https://inu-attention.github.io/blog/2023/10/12/발표</id>
+        <link href="https://inu-attention.github.io/blog/2023/10/12/발표"/>
+        <updated>2023-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 팀소개]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-팀소개">1. 팀소개<a href="#1-팀소개" class="hash-link" aria-label="Direct link to 1. 팀소개" title="Direct link to 1. 팀소개">​</a></h3><h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-아이디어-개요">2. 아이디어 개요<a href="#2-아이디어-개요" class="hash-link" aria-label="Direct link to 2. 아이디어 개요" title="Direct link to 2. 아이디어 개요">​</a></h3><ul><li><p>아이디어 선정 이유</p><ul><li>개인화<ul><li>이미지 처리를 통해 사용자만이 유일하게 가질 수 있는 목소리 스타일을 만들 수 있음</li></ul></li></ul></li><li><p>TTS 시장 규모 (효택)</p></li><li><p>현존 웹사이트</p><ul><li><a href="https://onairstudio.ai/," target="_blank" rel="noopener noreferrer" title="Onairstudio">Onairstudio</a><img loading="lazy" alt="onairstudio" src="/assets/images/OnAirStudio실행화면-5734f62b9178b87f3b5c258a3b9c130a.png" width="1435" height="927" class="img_ev3q"></li><li><a href="https://ttsmaker.com/ko," target="_blank" rel="noopener noreferrer" title="TTSMAKER">TTSMAKER</a><img loading="lazy" alt="onairstudio" src="/assets/images/TTSMAKER실행화면-97eef45ed68fa4727228069eee1daaec.png" width="1417" height="869" class="img_ev3q"></li><li><a href="https://speech.selvasai.com/text-to-speech-demonstration," target="_blank" rel="noopener noreferrer" title="SelvySpeech">SelvySpeech</a><img loading="lazy" alt="Selvyspeech1" src="/assets/images/SelvySpeech실행화면1-96430f2f61456a30a0566d8e7361b0fa.png" width="1541" height="775" class="img_ev3q"><img loading="lazy" alt="Selvyspeech2" src="/assets/images/SelvySpeech실행화면2-478ed29d0a418754d07e4ae6b72fa4b0.png" width="1599" height="877" class="img_ev3q"></li></ul></li><li><p>활용 분야</p><ul><li>인디게임</li><li>추가 예정</li></ul></li><li><p>주요 이슈</p><ul><li>협업</li><li>학습데이터 언어의 한계</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="본론">—본론—<a href="#본론" class="hash-link" aria-label="Direct link to —본론—" title="Direct link to —본론—">​</a></h3><ol><li><p>전체 아키텍쳐 (사용 기술 - 프레임워크, 언어, 런타임 etc..)</p></li><li><p>웹 사이트 진행 흐름</p><ul><li><p>프론트 소개 (효택)</p><ul><li>프레임워크 사용 이유(장단점 ...)</li></ul></li><li><p>백엔드 소개 (승호)</p><ul><li>프레팀워크 사용 이유(Express.js)</li></ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="웹사이트-파트">웹사이트 파트<a href="#웹사이트-파트" class="hash-link" aria-label="Direct link to 웹사이트 파트" title="Direct link to 웹사이트 파트">​</a></h4></li><li><p>자료조사 - 10/13(금)까지</p></li><li><p>PPT제작 - 10/15(일)까지</p></li></ul></li><li><p>AI소개</p><ul><li>사전 기술, 전체 아키텍쳐, 주요 예상 문제, 데이터셋</li></ul></li></ol><h3 class="anchor anchorWithStickyNavbar_LWe7" id="결론-">—결론—-<a href="#결론-" class="hash-link" aria-label="Direct link to —결론—-" title="Direct link to —결론—-">​</a></h3><ol><li>협업 도구 / 스케줄 관리 얘기</li></ol>]]></content>
+        <author>
+            <name>방승호</name>
+            <uri>https://github.com/inucom</uri>
+        </author>
+        <category label="발표" term="발표"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[자료 - 23.10.12]]></title>
+        <id>https://inu-attention.github.io/blog/2023/10/12/자료</id>
+        <link href="https://inu-attention.github.io/blog/2023/10/12/자료"/>
+        <updated>2023-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 흐름도]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-흐름도">1. 흐름도<a href="#1-흐름도" class="hash-link" aria-label="Direct link to 1. 흐름도" title="Direct link to 1. 흐름도">​</a></h2><p><img loading="lazy" alt="FlowChart" src="/assets/images/심볼변경필요-fcbe5aaba507fd4f107cf632feb4e255.png" width="935" height="741" class="img_ev3q"></p><blockquote><p>발표용으로 사용 시 FlowChart 기호에 맞게 변경 필요</p></blockquote><h3 class="anchor anchorWithStickyNavbar_LWe7" id="클라이언트">클라이언트<a href="#클라이언트" class="hash-link" aria-label="Direct link to 클라이언트" title="Direct link to 클라이언트">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="비회원">비회원<a href="#비회원" class="hash-link" aria-label="Direct link to 비회원" title="Direct link to 비회원">​</a></h4><ol><li>이미지 업로드</li><li>반환된 스타일 받기</li><li>텍스트 입력</li><li>TTS 받기<blockquote><p>이미지와 텍스트를 동시에 입력받을 경우 UI가 조잡해질 가능성이 있음
+TTS 입력창에서 스타일 저장 버튼을 클릭 시 회원가입 후 저장 가능</p></blockquote></li></ol><h5 class="anchor anchorWithStickyNavbar_LWe7" id="회원">회원<a href="#회원" class="hash-link" aria-label="Direct link to 회원" title="Direct link to 회원">​</a></h5><ol><li>회원가입</li><li>비회원 1-4</li><li>반환된 스타일 저장 가능<blockquote><p>Google Oauth 사용 시 클라이언트의 편의성 증가</p></blockquote></li></ol><h3 class="anchor anchorWithStickyNavbar_LWe7" id="프론트-엔드">프론트 엔드<a href="#프론트-엔드" class="hash-link" aria-label="Direct link to 프론트 엔드" title="Direct link to 프론트 엔드">​</a></h3><blockquote><h3 class="anchor anchorWithStickyNavbar_LWe7" id="백-엔드">백 엔드<a href="#백-엔드" class="hash-link" aria-label="Direct link to 백 엔드" title="Direct link to 백 엔드">​</a></h3><ul><li>프론트와 AI서버사이의 통신
+<img loading="lazy" alt="DB" src="/assets/images/e-r-13724730b82002ce8d62f2213cdd12b4.png" width="809" height="622" class="img_ev3q">
+MySQL기준으로 만든 E-R 다이어그램이므로 MongoDB 사용 시 변경 필요
+스타일 테이블 생성 후 수정</li></ul></blockquote><h4 class="anchor anchorWithStickyNavbar_LWe7" id="회원가입google-oauth-사용-시-흐름-파악-후-업데이트">회원가입(Google Oauth 사용 시 흐름 파악 후 업데이트)<a href="#회원가입google-oauth-사용-시-흐름-파악-후-업데이트" class="hash-link" aria-label="Direct link to 회원가입(Google Oauth 사용 시 흐름 파악 후 업데이트)" title="Direct link to 회원가입(Google Oauth 사용 시 흐름 파악 후 업데이트)">​</a></h4><ol><li>회원가입 정보 DB 저장</li></ol><h4 class="anchor anchorWithStickyNavbar_LWe7" id="로그인">로그인<a href="#로그인" class="hash-link" aria-label="Direct link to 로그인" title="Direct link to 로그인">​</a></h4><ol><li>로그인 정보 수신</li><li>로그인 정보가 DB에 저장되어있을 경우 로그인</li></ol><h4 class="anchor anchorWithStickyNavbar_LWe7" id="ai-api-호출">AI API 호출<a href="#ai-api-호출" class="hash-link" aria-label="Direct link to AI API 호출" title="Direct link to AI API 호출">​</a></h4><ul><li>Client to AI<ol><li>수신 이미지를 이미지 처리 모델로 송신</li><li>텍스트를 TTS 모델로 송신</li></ol></li><li>AI to Client<ol><li>이미지 처리 모델로부터 스타일 수신</li><li>스타일 DB에 저장</li><li>TTS 처리 결과 송신</li></ol></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="ai">AI<a href="#ai" class="hash-link" aria-label="Direct link to AI" title="Direct link to AI">​</a></h3>]]></content>
+        <author>
+            <name>방승호</name>
+            <uri>https://github.com/inucom</uri>
+        </author>
+        <category label="자료" term="자료"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[회의록 - 23.10.05]]></title>
         <id>https://inu-attention.github.io/blog/2023/10/05/회의록</id>

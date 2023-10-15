@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkinu_attention=self.webpackChunkinu_attention||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\ud68c\uc758\ub85d - 23.10.05","permalink":"/blog/2023/10/05/\ud68c\uc758\ub85d"},{"title":"\ud68c\uc758\ub85d - 23.09.30","permalink":"/blog/2023/09/30/\ud68c\uc758\ub85d"}]}')}}]);
